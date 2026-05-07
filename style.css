@@ -1,0 +1,170 @@
+body{
+    background-color: black;
+}
+
+
+.Estrutura{
+    padding: 15px;
+    background-color: #1F1F1F;
+    width: 500px;
+    height: 900px;
+    display: flex;
+
+    justify-content: center; 
+    align-items: center;    
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: 10px auto;
+    border-radius: 10px;
+    gap: 15px;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    max-height: 200px;
+    padding: 20px;
+
+
+}
+
+
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.image img{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+h1{
+    color: white;
+    font-family: Inter;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+p{
+    color: white;
+    font-family: Inter;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.text-status{
+    margin: top;
+    width: 330px;
+    height: 200px;
+    max-height: 150px;
+
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+
+
+.area-botao{
+    width: 490px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center; 
+    margin-top: 10px;        
+
+}
+
+.btn{
+    width: 500px;
+    height: 80px;
+    border-radius: 65px;
+    padding: 12px 24px;
+    font-size: 22px;
+    border: none;
+    background: black;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #f1db42;
+    color: black;
+}
+
+.botao-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;        
+
+}
+
+.curar{
+
+    width: 220px;
+    height: 80px;
+    border-radius: 65px;
+    padding: 12px 24px;
+    font-size: 22px;
+    border: none;
+    background: black;
+    color: white;
+}
+
+.curar:hover{
+    background-color: #f1db42;
+    color: black;
+}
+
+.lvlUp{
+    width: 220px;
+    height: 80px;
+    border-radius: 85px;
+    padding: 12px 24px;
+    border: none;
+    font-size: 22px;
+    background: black;
+    color: white;
+}
+
+.lvlUp:hover{
+    background-color: #f1db42;
+    color: black;
+}
+
+.acao-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: self-end;
+}
+
+.batata{
+ display: flex;
+    background-color:black;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.vida{
+    
+    text-align: center;
+    background-color: #f1db42;
+    width: 96%;
+    height: 55px;
+    border-radius: 25px ;
+    border-bottom: 5px;
+}
