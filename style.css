@@ -111,6 +111,10 @@ p{
 
 }
 
+p:hover {
+  color: black;
+}
+
 .curar{
 
     width: 220px;
@@ -125,7 +129,6 @@ p{
 
 .curar:hover{
     background-color: #f1db42;
-    color: black;
 }
 
 .lvlUp{
@@ -141,8 +144,8 @@ p{
 
 .lvlUp:hover{
     background-color: #f1db42;
-    color: black;
 }
+
 
 .acao-status{
     display: flex;
