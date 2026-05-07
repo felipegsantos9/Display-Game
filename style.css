@@ -97,7 +97,7 @@ p{
     color: white;
 }
 
-.btn h3:hover {
+.btn:hover {
      background-color: #f1db42;
     color: black;
 }
@@ -127,10 +127,15 @@ p{
     color: white;
 }
 
-.curar h3:hover {
+.curar :hover {
     background-color: #f1db42;
+}
+
+h3:hover {
     color: black;
 }
+
+
 
 .lvlUp{
     width: 220px;
@@ -143,8 +148,12 @@ p{
     color: white;
 }
 
-.lvlUp h3:hover {
+.lvlUp:hover {
     background-color: #f1db42;
+    color: black;
+}
+
+h3:hover {
     color: black;
 }
 
