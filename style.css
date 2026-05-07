@@ -98,9 +98,9 @@ p{
 }
 
 .btn:hover {
-     background-color: #f1db42;
-    color: black;
+    background-color: #f1db42;
 }
+
 
 
 
@@ -113,6 +113,15 @@ p{
 
 }
 
+h3:hover {
+    width: 220px;
+    height: 80px;
+    border-radius: 65px;
+    padding: 12px 24px;
+    font-size: 22px;
+    border: none;
+    color: black;
+}
 
 
 .curar{
@@ -131,9 +140,7 @@ p{
     background-color: #f1db42;
 }
 
-h3:hover {
-    color: black;
-}
+
 
 
 
@@ -150,10 +157,6 @@ h3:hover {
 
 .lvlUp:hover {
     background-color: #f1db42;
-    color: black;
-}
-
-h3:hover {
     color: black;
 }
 
